@@ -54,14 +54,14 @@ export function MaranhaoHinterland() {
         <div
           className="absolute inset-0"
           style={{
-            background: `linear-gradient(to bottom, rgba(73, 47, 22, 1) 0%, rgba(73, 47, 22, 0.8) 30%, rgba(73, 47, 22, 0.6) 50%, rgba(73, 47, 22, 0.4) 70%, rgba(73, 47, 22, 0) 90%)`,
+            background: `linear-gradient(to bottom, rgba(73, 47, 22, 0.9) 0%, rgba(73, 47, 22, 0.7) 30%, rgba(73, 47, 22, 0.5) 50%, rgba(73, 47, 22, 0.3) 70%, rgba(73, 47, 22, 0) 90%)`,
           }}
         ></div>
 
         <div
           className="absolute inset-0"
           style={{
-            background: `linear-gradient(to right, rgba(73, 47, 22, 1) 0%, rgba(73, 47, 22, 0.8) 30%, rgba(73, 47, 22, 0.6) 50%, rgba(73, 47, 22, 0.4) 70%, rgba(73, 47, 22, 0) 90%)`,
+            background: `linear-gradient(to right, rgba(73, 47, 22, 0.9) 0%, rgba(73, 47, 22, 0.7) 30%, rgba(73, 47, 22, 0.5) 50%, rgba(73, 47, 22, 0.3) 70%, rgba(73, 47, 22, 0) 90%)`,
           }}
         ></div>
 
@@ -80,7 +80,7 @@ export function MaranhaoHinterland() {
             Do índio ao vaqueiro
           </h2>
           <p
-            className="mt-4 text-justify text-[16px] font-light leading-8"
+            className="mt-4 text-justify text-[20px] font-light leading-8"
             style={{ color: '#F5F5DC' }}
           >
             O Maranhão é o terceiro estado do Nordeste com maior população
@@ -88,7 +88,7 @@ export function MaranhaoHinterland() {
             indígenas.
           </p>
           <p
-            className="mt-4 text-justify text-[16px] font-light leading-8"
+            className="mt-4 text-justify text-[20px] font-light leading-8"
             style={{ color: '#F5F5DC' }}
           >
             As Terras Indígenas maranhenses se concentram especialmente na
@@ -97,7 +97,7 @@ export function MaranhaoHinterland() {
             deixou de existir, seja por extermínio ou por assimilação.
           </p>
           <p
-            className="mt-4 text-justify text-[16px] font-light leading-8"
+            className="mt-4 text-justify text-[20px] font-light leading-8"
             style={{ color: '#F5F5DC' }}
           >
             Quem sucede o índio como representante do sertão é o vaqueiro, visto
@@ -108,6 +108,8 @@ export function MaranhaoHinterland() {
           </p>
         </div>
       </div>
+
+      {/* Terceira Seção: Colonização */}
       <div
         className="relative h-[91.125rem] bg-cover bg-center bg-no-repeat"
         style={{
@@ -117,21 +119,21 @@ export function MaranhaoHinterland() {
         <div
           className="absolute inset-0"
           style={{
-            background: `linear-gradient(to bottom, rgba(73, 47, 22, 1) 0%, rgba(73, 47, 22, 0.8) 30%, rgba(73, 47, 22, 0.6) 50%, rgba(73, 47, 22, 0.4) 70%, rgba(73, 47, 22, 0) 90%)`,
+            background: `linear-gradient(to bottom, rgba(73, 47, 22, 0.9) 0%, rgba(73, 47, 22, 0.7) 30%, rgba(73, 47, 22, 0.5) 50%, rgba(73, 47, 22, 0.3) 70%, rgba(73, 47, 22, 0) 90%)`,
           }}
         ></div>
 
         <div
           className="absolute inset-0"
           style={{
-            background: `linear-gradient(to right, rgba(73, 47, 22, 1) 0%, rgba(73, 47, 22, 0.8) 30%, rgba(73, 47, 22, 0.6) 50%, rgba(73, 47, 22, 0.4) 70%, rgba(73, 47, 22, 0) 90%)`,
+            background: `linear-gradient(to right, rgba(73, 47, 22, 0.9) 0%, rgba(73, 47, 22, 0.7) 30%, rgba(73, 47, 22, 0.5) 50%, rgba(73, 47, 22, 0.3) 70%, rgba(73, 47, 22, 0) 90%)`,
           }}
         ></div>
 
         <div
           className="absolute ml-auto max-w-[600px]"
           style={{
-            top: '36%',
+            top: '46%',
             left: '80px',
             transform: 'translateY(-50%)',
           }}
@@ -143,26 +145,31 @@ export function MaranhaoHinterland() {
             Colonização
           </h2>
           <p
-            className="mt-4 text-justify text-[16px] font-light leading-8"
+            className="mt-4 text-justify text-[20px] font-light leading-8"
             style={{ color: '#F5F5DC' }}
           >
             O estado do Maranhão foi inicialmente colonizado por{' '}
             <span className="font-bold">franceses</span> e depois por{' '}
             <span className="font-bold">holandeses</span>, até a consolidação do
-            domínio português, o que explica seu riquíssimo patrimônio
-            histórico, cultural e arquitetônico.
+            domínio <span className="font-bold">português</span>, o que explica
+            seu riquíssimo patrimônio histórico, cultural e arquitetônico. É o
+            Estado brasileiro que apresenta a maior diversidade de ecossistemas
+            em seu território, desde floresta amazônica e litoral a cerrados e
+            pântanos. Possui um deserto repleto de água e o maior banco de
+            corais da América Latina.
           </p>
           <p
-            className="mb-16 mt-4 text-justify text-[16px] font-light leading-8"
+            className="mb-16 mt-4 text-justify text-[20px] font-light leading-8"
             style={{ color: '#F5F5DC' }}
           >
-            A colonização do sertão maranhense foi um dos dois frentes de
+            A colonização do sertão maranhense foi uma das duas frentes de
             ocupação do território do Maranhão, juntamente com a frente
-            litorânea...
+            litorânea. Essas duas frentes geraram formações socioespaciais
+            diferentes, com bases econômicas distintas:
           </p>
           <ColonizationCards />
           <p
-            className="mt-4 text-justify text-[16px] font-light leading-8"
+            className="mt-4 text-justify text-[20px] font-light leading-8"
             style={{ color: '#F5F5DC' }}
           >
             No início do século XVIII, chegaram nos sertões do Maranhão, os
@@ -170,11 +177,12 @@ export function MaranhaoHinterland() {
             que conseguiram romper a barreira natural do rio Parnaíba. Logo
             vendo a imensidão dos verdes pastos maranhenses, pois nunca
             avistados na caatinga nordestina, batizaram a região com o nome de
-            Pastos Bons, e logo fundaram uma vila com mesmo nome, na chapada
-            nordeste da serra do Itapecuru (CARDOSO, 1947)
+            <span className="font-bold"> Pastos Bons</span>, e logo fundaram uma
+            vila com mesmo nome, na chapada nordeste da serra do Itapecuru
+            (CARDOSO, 1947)
           </p>
           <p
-            className="mt-4 text-justify text-[16px] font-light leading-8"
+            className="mt-4 text-justify text-[20px] font-light leading-8"
             style={{ color: '#F5F5DC' }}
           >
             Durante algum tempo, a região de Pastos Bons abasteceu mercados em

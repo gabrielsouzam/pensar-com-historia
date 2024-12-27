@@ -1,7 +1,7 @@
 export function ColonizationCards() {
   return (
     <div className="bottom-12 left-12 mb-16 flex gap-12">
-      <div className="w-64 rounded-lg bg-[#C6A375] p-6 text-center">
+      <div className="w-64 rounded-3xl bg-[#C6A375] p-6 text-center">
         <h3 className="text-[20px] font-bold text-[#3A2515]">
           Frente Litorânea
         </h3>
@@ -10,7 +10,7 @@ export function ColonizationCards() {
           africanos escravizados.
         </p>
       </div>
-      <div className="w-64 rounded-lg bg-[#C6A375] p-6 text-center">
+      <div className="w-64 rounded-3xl bg-[#C6A375] p-6 text-center">
         <h3 className="text-[20px] font-bold text-[#3A2515]">
           Frente do Sertão
         </h3>
