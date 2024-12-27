@@ -13,11 +13,11 @@ export function AppHeader() {
       </div>
 
       <nav className="space-x-10">
-        <Link to="/quem-somos">Quem somos</Link>
+        <Link to="/quem-somos">Quem Somos</Link>
         <Link to="/educacional">Educacional</Link>
-        <Link to="sertao-maranhanse">Sertão maranhese</Link>
+        <Link to="sertao-maranhanse">Sertão Maranhense</Link>
         <Link to="repositorios">Respositórios</Link>
-        <Link to="documentos-historicos">Documentos históricos</Link>
+        <Link to="documentos-historicos">Documentos Históricos</Link>
       </nav>
     </header>
   )
