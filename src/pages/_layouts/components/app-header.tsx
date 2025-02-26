@@ -4,7 +4,7 @@ import appLogo from '@/assets/app-logo.svg'
 
 export function AppHeader() {
   return (
-    <header className="bg-brown-500 flex items-center px-32 py-3 justify-between">
+    <header className="flex items-center justify-between bg-brown-500 px-32 py-3">
       <div className="flex items-center gap-2">
         <img src={appLogo} alt="Imagem logo" />
         <h1 className="text-lg">
