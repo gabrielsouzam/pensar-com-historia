@@ -1,16 +1,12 @@
-import appLogo from '../../../assets/app-logo.svg'
-import firstBackground from '../../../assets/first_background.jpg'
-import secondBackground from '../../../assets/second_background.png'
-
 export function AboutUs() {
   return (
     <main>
       <section>
         <div className="relative">
           <img
-            src={firstBackground}
+            src="/src/assets/map.png"
             alt="Imagem de fundo com uma casa no sertão"
-            className="h-auto w-full object-cover"
+            className="w-full object-cover"
           />
 
           <div className="absolute inset-0 bg-gradient-to-r from-[#453526] to-[#A27E5C1A] opacity-100"></div>
@@ -28,7 +24,7 @@ export function AboutUs() {
 
             <article>
               <img
-                src={appLogo}
+                src="/src/assets/app-logo.svg"
                 alt="Logo do site"
                 className="mb-8 h-52 w-52"
               />
@@ -40,7 +36,7 @@ export function AboutUs() {
       <section>
         <div className="relative flex justify-end">
           <img
-            src={secondBackground}
+            src="/src/assets/second_background.png"
             alt="Imagem de fundo com a vista do alto de uma cidade"
             className="h-auto w-full object-cover"
           />
@@ -51,7 +47,7 @@ export function AboutUs() {
           <div className="absolute inset-0 flex flex-row items-center justify-center px-36 text-white">
             <article>
               <img
-                src={appLogo}
+                src="/src/assets/app-logo.svg"
                 alt="Logo do site"
                 className="mb-8 h-52 w-52"
               />
