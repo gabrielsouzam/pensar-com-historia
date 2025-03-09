@@ -3,9 +3,9 @@ import { Helmet } from 'react-helmet-async'
 import heroEducationalBackground from '@/assets/hero-educational.png'
 import webQuestImage from '@/assets/webquest-image.png'
 
-import { AvaliationCards } from './components/avaliation-cards'
-import { DescriptionButton } from './components/description-button'
-import { RecomendationCards } from './components/recomendation-cards'
+import { AvaliationCards } from '../web-quest/components/avaliation-cards'
+import { DescriptionButton } from '../web-quest/components/description-button'
+import { RecomendationCards } from '../web-quest/components/recomendation-cards'
 
 export function Educational() {
   return (
@@ -17,7 +17,7 @@ export function Educational() {
           style={{ backgroundImage: `url(${heroEducationalBackground})` }}
         >
           <div
-            className="absolute inset-0 top-14 z-10 h-[15.75rem] w-full"
+            className="absolute inset-0 top-20 z-10 h-[15.75rem] w-full"
             style={{
               background: `linear-gradient(270deg, #483424 4.17%, rgba(73, 54, 38, 0.98) 7.61%,
               rgba(86, 63, 44, 0.9) 22.34%, rgba(129, 95, 66, 0.482302) 61.27%, rgba(129, 95, 66, 0.482302) 61.27%,
@@ -44,14 +44,15 @@ export function Educational() {
                 que integrem recursos disponibilizados na internet.
               </p>
               <p>
-                De acordo com Bernie Dodge (1995, p. 1) “A WebQuest é “uma
-                investigação orientada na qual algumas ou todas as informações
-                com as quais os aprendizes interagem são originadas de recursos
-                da internet”. A ideia é ajudar os alunos a explorar os recursos
-                que a web oferece, o que não é pouco, e ao mesmo tempo, fazer
-                com que os docentes sejam capazes de ajudar seus alunos a não se
-                perderem no leque quase ilimitado de informações e arquivos que
-                a rede oferece nos diversos sítios eletrônicos.{' '}
+                De acordo com Bernie Dodge (1995, p. 1) “A{' '}
+                <span className="italic">WebQuest</span> é “uma investigação
+                orientada na qual algumas ou todas as informações com as quais
+                os aprendizes interagem são originadas de recursos da internet”.
+                A ideia é ajudar os alunos a explorar os recursos que a web
+                oferece, o que não é pouco, e ao mesmo tempo, fazer com que os
+                docentes sejam capazes de ajudar seus alunos a não se perderem
+                no leque quase ilimitado de informações e arquivos que a rede
+                oferece nos diversos sítios eletrônicos.{' '}
               </p>
               <p>
                 Antes de produzir uma WebQuest, é necessário ater-se a sua

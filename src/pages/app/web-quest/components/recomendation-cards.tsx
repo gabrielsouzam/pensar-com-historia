@@ -2,7 +2,7 @@ import { RecomendationCardNumber } from './recomendation-card-number'
 
 export function RecomendationCards() {
   return (
-    <div className="mb-32 grid grid-cols-2 gap-9">
+    <div className="mb-32">
       <div>
         <RecomendationCardNumber number="1" />
         <div className="space-y-4 rounded-3xl bg-brown-300 px-12 py-10 text-center">
@@ -77,7 +77,7 @@ export function RecomendationCards() {
           </p>
         </div>
       </div>
-      <div className="col-span-2">
+      <div>
         <RecomendationCardNumber number="7" />
         <div className="space-y-4 rounded-3xl bg-brown-300 px-12 py-10 text-center">
           <h2 className="text-4xl font-semibold">
