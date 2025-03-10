@@ -12,16 +12,15 @@ export function DescriptionButton({ title, align }: DescriptionButtonProps) {
   const [isPopupVisible, setIsPopupVisible] = useState(false)
 
   const popupRef = useRef<HTMLDivElement>(null)
-
-  function setPopUpVisibility() {
-    setIsPopupVisible((prev) => !prev)
-  }
+  const buttonRef = useRef<HTMLButtonElement>(null)
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (
         popupRef.current &&
-        !popupRef.current.contains(event.target as Node)
+        !popupRef.current.contains(event.target as Node) &&
+        buttonRef.current &&
+        !buttonRef.current.contains(event.target as Node)
       ) {
         setIsPopupVisible(false)
       }
@@ -41,12 +40,14 @@ export function DescriptionButton({ title, align }: DescriptionButtonProps) {
           align === 'left' ? 'left-16' : align === 'right' ? 'right-16' : ''
         }`}
       >
-        <span className="text-2xl font-bold text-brown-50">{title}</span>
+        <span className="text-2xl font-semibold text-brown-50">{title}</span>
       </div>
 
       <button
         type="button"
-        onClick={setPopUpVisibility}
+        ref={buttonRef}
+        onMouseEnter={() => setIsPopupVisible(true)}
+        onMouseLeave={() => setIsPopupVisible(false)}
         className={`relative top-[-1rem] flex h-8 w-8 items-center justify-center rounded-full border-4 border-brown-400 border-opacity-50 bg-brown-700 ${
           align === 'left' ? 'left-16' : align === 'right' ? 'right-16' : ''
         }`}
