@@ -11,7 +11,7 @@ export function AppFooter() {
         <hr className="w-full border-t-2 border-zinc-200" />
       </div>
 
-      <div className="mb-16 flex items-center justify-between">
+      <div className="mb-16 flex items-center justify-between text-zinc-900">
         <img src={uemaLogo} alt="Logo da Universidade Federal do Maranhão" />
         <img
           src={ppghistLogo}
@@ -22,20 +22,20 @@ export function AppFooter() {
       </div>
 
       <div className="flex items-center justify-between">
-        <span>
-          <a className="text-brown-600" href="">
+        <span className="text-zinc-900">
+          <a className="text-red-800 underline" href="">
             pensar.com a História
           </a>{' '}
           &copy; {new Date().getFullYear()} de{' '}
           <a
-            className="text-brown-600"
+            className="text-red-800 underline"
             href="http://lattes.cnpq.br/2660971989902220"
           >
             Antonio Moura
           </a>{' '}
           está licenciado sob{' '}
           <a
-            className="text-brown-600"
+            className="text-red-800 underline"
             href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
           >
             CC BY-NC-SA 4.0

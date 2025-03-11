@@ -2,11 +2,9 @@ import { createBrowserRouter } from 'react-router-dom'
 
 import { AppLayout } from './pages/_layouts/app'
 import { AboutUs } from './pages/app/about-us/about-us'
-import { Educational } from './pages/app/educational/educational'
 import { HistoricalDocuments } from './pages/app/historical-documents/historical-documents'
-import { MaranhaoHinterland } from './pages/app/maranhao-hiterland/maranhao-hiterland'
+import { Home } from './pages/app/home/home'
 import { REDs } from './pages/app/reds/reds'
-import { Repositories } from './pages/app/repositories/repositories'
 import { TeacherArea } from './pages/app/teacher-area/teacher-area'
 import { CreatingWebQuest } from './pages/app/web-quest/creating-web-quest/creating-web-quest'
 import { EvaluatingWebQuest } from './pages/app/web-quest/evaluation-web-quest/evaluation-web-quest'
@@ -18,10 +16,8 @@ export const router = createBrowserRouter([
     path: '/',
     element: <AppLayout />,
     children: [
-      { path: '/', element: <AboutUs /> },
-      { path: '/educacional', element: <Educational /> },
-      { path: '/sertao-maranhanse', element: <MaranhaoHinterland /> },
-      { path: '/repositorios', element: <Repositories /> },
+      { path: '/', element: <Home /> },
+      { path: '/sobre-nos', element: <AboutUs /> },
       { path: '/documentos-historicos', element: <HistoricalDocuments /> },
       { path: '/metodologia-web-quest', element: <WebQuestMethodology /> },
       { path: '/produzindo-web-quest', element: <CreatingWebQuest /> },

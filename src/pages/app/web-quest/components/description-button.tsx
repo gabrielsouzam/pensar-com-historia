@@ -6,9 +6,14 @@ import { ChevronTop } from './chevron-top'
 interface DescriptionButtonProps {
   title: string
   align?: 'left' | 'right'
+  description: string
 }
 
-export function DescriptionButton({ title, align }: DescriptionButtonProps) {
+export function DescriptionButton({
+  title,
+  align,
+  description,
+}: DescriptionButtonProps) {
   const [isPopupVisible, setIsPopupVisible] = useState(false)
 
   const popupRef = useRef<HTMLDivElement>(null)
@@ -67,12 +72,7 @@ export function DescriptionButton({ title, align }: DescriptionButtonProps) {
           }`}
         >
           <ChevronTop />
-          <p className="text-brown-50">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            vitae sapiente facilis fuga earum ratione distinctio tempora quod!
-            Obcaecati deserunt voluptatibus similique. Commodi eaque, fugiat
-            perferendis fuga dolores exercitationem nesciunt.
-          </p>
+          <p className="text-brown-50">{description}</p>
         </div>
       )}
     </div>

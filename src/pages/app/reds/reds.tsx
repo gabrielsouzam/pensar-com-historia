@@ -116,8 +116,8 @@ export function REDs() {
 
             <div className="flex flex-1 flex-col items-center gap-10">
               <div className="flex w-full justify-between gap-10">
-                <DescriptionButton title="MindMeister" />
-                <DescriptionButton title="Canva" />
+                <DescriptionButton title="MindMeister" description="" />
+                <DescriptionButton title="Canva" description="" />
               </div>
 
               <div className="mb-2 w-[18rem]">
@@ -126,7 +126,7 @@ export function REDs() {
                 </h2>
               </div>
 
-              <DescriptionButton title="Genially" />
+              <DescriptionButton title="Genially" description="" />
             </div>
 
             <button
