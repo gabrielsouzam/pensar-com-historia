@@ -10,11 +10,11 @@ export function TeacherArea() {
 
   const areaContents: Record<string, string> = {
     'Formação docente':
-      'Conteúdo sobre formação docente: conceitos, metodologias e práticas pedagógicas.',
+      'A formação continuada dos professores é essencial para integrar as TDICs ao ensino de maneira eficiente. Os docentes precisam de acesso a cursos, oficinas e materiais que os capacitem não apenas a usar as tecnologias, mas também a incorporá-las em metodologias pedagógicas inovadoras. Essa formação deve abordar desde o uso básico das ferramentas digitais até a criação de atividades interativas que fomentem o aprendizado ativo.',
     'Competências Tecnológicas Digitais':
-      'Exploração de ferramentas digitais e como elas impactam o ensino moderno.',
+      'Professores e alunos precisam dominar habilidades tecnológicas para aproveitar o potencial das TDICs. Isso inclui saber utilizar softwares, plataformas educacionais, redes sociais como ferramentas pedagógicas e até mesmo explorar aplicativos voltados para a pesquisa e produção histórica. Desenvolver essas competências permite que o ensino de História seja mais dinâmico e conectado ao mundo digital.',
     'Letramento Digital':
-      'Importância da alfabetização digital para professores e alunos no século XXI.',
+      'Letramento digital vai além do uso técnico das tecnologias. Envolve a habilidade de buscar, avaliar, interpretar e utilizar informações de forma crítica e ética. No contexto do ensino de História, isso significa capacitar os alunos a analisar fontes digitais, reconhecer fake news e compreender como a informação circula e é manipulada na era digital.',
   }
   return (
     <>

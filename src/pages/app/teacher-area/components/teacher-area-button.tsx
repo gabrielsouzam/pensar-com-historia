@@ -34,9 +34,14 @@ export function TeacherAreaButton({
       </button>
 
       {!isActive && (
-        <div className="relative left-28 top-[-1rem] flex h-8 w-8 items-center justify-center rounded-full border-4 border-brown-400 border-opacity-50 bg-brown-700">
+        <button
+          type="button"
+          ref={buttonRef}
+          onClick={handleClick}
+          className="relative left-28 top-[-1rem] flex h-8 w-8 items-center justify-center rounded-full border-4 border-brown-400 border-opacity-50 bg-brown-700"
+        >
           <HandPointing size={16} className="text-brown-50" weight="fill" />
-        </div>
+        </button>
       )}
     </div>
   )

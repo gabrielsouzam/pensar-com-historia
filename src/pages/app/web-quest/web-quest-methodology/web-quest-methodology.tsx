@@ -1,13 +1,14 @@
 import { Helmet } from 'react-helmet-async'
 
 import { WebQuestTitle } from '../components/web-quest-title'
+import { YouTubeVideo } from '../components/youtube-video'
 
 export function WebQuestMethodology() {
   return (
     <>
       <Helmet title="Metodologia Webquest" />
       <div className="flex h-full w-full flex-col bg-brown-50 pb-40">
-        <WebQuestTitle title="Produzindo uma" />
+        <WebQuestTitle title="Metodologia" />
 
         <div className="h-full px-32 pt-10 text-brown-800">
           <div>
@@ -42,6 +43,8 @@ export function WebQuestMethodology() {
               uma playlist exclusiva de vídeos como material de suporte ao
               aprendizado e desenvolvimento de uma WebQuest
             </p>
+
+            <YouTubeVideo videoId="pInmH3pF6Sg" />
           </div>
         </div>
       </div>
