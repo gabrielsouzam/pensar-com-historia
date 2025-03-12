@@ -1,18 +1,21 @@
 import { Helmet } from 'react-helmet-async'
 
+import logo from '@/assets/app-logo.svg'
+import bgFirstSection from '@/assets/map.png'
+import bgSecondSection from '@/assets/second_background.png'
+
 export function Home() {
   return (
     <>
       <Helmet title="Home" />
       <main>
-        <section>
-          <div className="relative">
-            <img
-              src="/src/assets/map.png"
-              alt="Imagem de fundo com uma casa no sertão"
-              className="w-full object-cover"
-            />
-
+        <section
+          className="relative h-[859px] w-full bg-cover bg-center"
+          style={{
+            backgroundImage: `url(${bgFirstSection})`,
+          }}
+        >
+          <div>
             <div className="absolute inset-0 bg-gradient-to-r from-[#453526] to-[#A27E5C1A] opacity-100"></div>
 
             <div className="absolute inset-0 flex flex-row items-center justify-center px-36 text-white">
@@ -28,34 +31,25 @@ export function Home() {
               </aside>
 
               <article>
-                <img
-                  src="/src/assets/app-logo.svg"
-                  alt="Logo do site"
-                  className="mb-8 h-52 w-52"
-                />
+                <img src={logo} alt="Logo do site" className="mb-8 h-52 w-52" />
               </article>
             </div>
           </div>
         </section>
 
-        <section>
-          <div className="relative flex justify-end">
-            <img
-              src="/src/assets/second_background.png"
-              alt="Imagem de fundo com a vista do alto de uma cidade"
-              className="h-auto w-full object-cover"
-            />
-
+        <section
+          className="relative h-[859px] w-full bg-cover bg-center"
+          style={{
+            backgroundImage: `url(${bgSecondSection})`,
+          }}
+        >
+          <div>
             <div className="absolute inset-0 bg-gradient-to-b from-[#453526] to-[#A27E5C1A] opacity-100"></div>
             <div className="absolute inset-0 bg-gradient-to-r from-[#453526] to-[#A27E5C1A] opacity-100"></div>
 
             <div className="absolute inset-0 flex flex-row items-center justify-center px-36 text-white">
               <article>
-                <img
-                  src="/src/assets/app-logo.svg"
-                  alt="Logo do site"
-                  className="mb-8 h-52 w-52"
-                />
+                <img src={logo} alt="Logo do site" className="mb-8 h-52 w-52" />
               </article>
 
               <aside className="ml-32 max-w-[700px] text-start">

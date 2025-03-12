@@ -23,7 +23,7 @@ export function AppHeader() {
         </Link>
         <Link
           className="flex max-w-40 rounded-lg text-center transition-colors duration-300 hover:bg-brown-600"
-          to="produzindo-web-quest "
+          to="produzindo-web-quest"
         >
           Produzindo uma Web Quest
         </Link>
