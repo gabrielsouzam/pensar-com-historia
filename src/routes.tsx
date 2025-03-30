@@ -5,6 +5,7 @@ import { AboutUs } from './pages/app/about-us/about-us'
 import { HistoricalDocuments } from './pages/app/historical-documents/historical-documents'
 import { Home } from './pages/app/home/home'
 import { REDs } from './pages/app/reds/reds'
+import { SupportMaterial } from './pages/app/support-material/support-material'
 import { TeacherArea } from './pages/app/teacher-area/teacher-area'
 import { CreatingWebQuest } from './pages/app/web-quest/creating-web-quest/creating-web-quest'
 import { EvaluatingWebQuest } from './pages/app/web-quest/evaluation-web-quest/evaluation-web-quest'
@@ -28,6 +29,7 @@ export const router = createBrowserRouter([
       },
       { path: '/reds', element: <REDs /> },
       { path: '/area-docente', element: <TeacherArea /> },
+      { path: '/material-apoio', element: <SupportMaterial /> },
     ],
   },
 ])

@@ -71,7 +71,7 @@
 //               <img
 //                 className="h-[18rem] w-[18rem]"
 //                 src={webQuestImage}
-//                 alt="Image de web quest"
+//                 alt="Image de webquest"
 //               />
 //               <div className="space-y-20">
 //                 <DescriptionButton title="2. Tarefa" align="right" />

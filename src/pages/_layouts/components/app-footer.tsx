@@ -14,6 +14,7 @@ export function AppFooter() {
       <div className="mb-16 flex items-center justify-between text-zinc-900">
         <img src={uemaLogo} alt="Logo da Universidade Federal do Maranhão" />
         <img
+          className="h-[9.5rem] w-[19rem]"
           src={ppghistLogo}
           alt="Programa de pós graduação em História - UEMA"
         />
