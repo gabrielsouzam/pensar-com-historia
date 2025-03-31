@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet-async'
 
+import { StandardYouTubeVideo } from '../../@components/standard-youtube-video'
 import { AvaliationCards } from '../components/avaliation-cards'
 import { WebQuestTitle } from '../components/web-quest-title'
 
@@ -23,6 +24,39 @@ export function EvaluatingWebQuest() {
           </p>
 
           <AvaliationCards />
+
+          <h2 className="mb-3 text-5xl font-light">
+            Revisão e refinamento de um <span className="italic">WebQuest</span>{' '}
+            - vídeos
+          </h2>
+          <hr className="mb-10 border-t-2 border-brown-800" />
+          <p className="mb-16 text-justify text-2xl font-light">
+            A revisão e o refinamento de um WebQuest são etapas essenciais para
+            garantir que a experiência de aprendizado seja clara, envolvente e
+            eficaz. Ao revisar, é possível identificar erros, ajustar atividades
+            para torná-las mais dinâmicas e verificar se os recursos e links
+            estão atualizados e funcionais. Já o refinamento ajuda a melhorar a
+            linguagem, a apresentação e a adequação das tarefas aos objetivos
+            propostos, tornando o WebQuest mais atrativo e acessível para os
+            alunos.
+          </p>
+          <p className="mb-16 text-justify text-2xl font-light">
+            Para entender melhor esse processo e ver exemplos práticos, confira
+            nossos vídeos de apoio a seguir!
+          </p>
+
+          <div className="grid grid-cols-2 gap-6 px-14">
+            <StandardYouTubeVideo
+              videoId="4CeSAhgfjKo"
+              index={1}
+              title="Dicas para Revisão e Refinamento de um WebQuest (Parte I)"
+            />
+            <StandardYouTubeVideo
+              videoId="aXNrfzzAZ1U"
+              index={2}
+              title="Dicas para Revisão e Refinamento de um WebQuest (Parte II)"
+            />
+          </div>
         </div>
       </div>
     </>

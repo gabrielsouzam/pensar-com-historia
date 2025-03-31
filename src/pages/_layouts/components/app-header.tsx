@@ -9,35 +9,30 @@ export function AppHeader() {
         <Link to="">
           <img src={appLogo} alt="Imagem logo" />
         </Link>
-        <Link
-          className="rounded-lg p-2 transition-colors duration-300 hover:bg-brown-600"
-          to="/sobre-nos"
-        >
-          Quem Somos
-        </Link>
+
         <Link
           className="flex max-w-32 rounded-lg text-center transition-colors duration-300 hover:bg-brown-600"
           to="metodologia-web-quest"
         >
-          Metodologia Web Quest
+          Metodologia WebQuest
         </Link>
         <Link
           className="flex max-w-40 rounded-lg text-center transition-colors duration-300 hover:bg-brown-600"
           to="produzindo-web-quest"
         >
-          Produzindo uma Web Quest
+          Produzindo uma WebQuest
         </Link>
         <Link
           className="flex max-w-40 rounded-lg text-center transition-colors duration-300 hover:bg-brown-600"
           to="avaliando-web-quest"
         >
-          Avaliando uma Web Quest
+          Avaliando uma WebQuest
         </Link>
         <Link
           className="flex max-w-40 rounded-lg text-center transition-colors duration-300 hover:bg-brown-600"
           to="recomendacoes-web-quest"
         >
-          Recomendações para Web Quest
+          Recomendações para WebQuest
         </Link>
         <Link
           className="rounded-lg p-2 transition-colors duration-300 hover:bg-brown-600"
@@ -46,10 +41,16 @@ export function AppHeader() {
           RED&apos;s
         </Link>
         <Link
-          className="rounded-lg p-2 transition-colors duration-300 hover:bg-brown-600"
-          to="area-docente"
+          className="flex max-w-32 rounded-lg text-center transition-colors duration-300 hover:bg-brown-600"
+          to="material-apoio"
         >
-          Área docente
+          Materiais de Apoio
+        </Link>
+        <Link
+          className="rounded-lg p-2 transition-colors duration-300 hover:bg-brown-600"
+          to="sobre-nos"
+        >
+          Quem Somos
         </Link>
       </nav>
     </header>

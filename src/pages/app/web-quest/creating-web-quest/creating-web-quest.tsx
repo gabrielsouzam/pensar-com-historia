@@ -2,9 +2,9 @@ import { Helmet } from 'react-helmet-async'
 
 import webQuestImage from '@/assets/webquest-image.png'
 
+import { StandardYouTubeVideo } from '../../@components/standard-youtube-video'
 import { DescriptionButton } from '../components/description-button'
 import { WebQuestTitle } from '../components/web-quest-title'
-import { YouTubeVideo } from '../components/youtube-video'
 
 export function CreatingWebQuest() {
   const webquestDescriptions = {
@@ -86,21 +86,89 @@ export function CreatingWebQuest() {
             </div>
           </div>
 
-          <h2 className="mb-3 text-5xl font-light">Vídeos complementares</h2>
+          <h2 className="mb-3 text-5xl font-light">Componentes em vídeos</h2>
           <hr className="mb-10 border-t-2 border-brown-800" />
           <p className="mb-16 text-justify text-2xl font-light">
-            Apresentaremos a seguir toda a estrutura de componentes de uma
-            WebQuest em vídeos breves e explicativos que compõem uma verdadeira
-            playlist de aprendizado.
+            Nessa série de vídeos abaixo você aprenderá, um pouco mais, sobre
+            cada um dos componentes de uma{' '}
+            <span className="italic">WebQuest</span> (WQ).
           </p>
 
-          <div className="mb-16 space-y-24">
-            <YouTubeVideo videoId="Xzv0s27IZc8" />
-            <YouTubeVideo videoId="btVlU-tCJio" />
-            <YouTubeVideo videoId="pInmH3pF6Sg" />
-            <YouTubeVideo videoId="OLpQ0xEHp24" />
-            <YouTubeVideo videoId="eKw3HasYb00" />
-            <YouTubeVideo videoId="Yc6v0N1ki74" />
+          <div className="mb-20 grid grid-cols-2 gap-6 px-14">
+            <StandardYouTubeVideo
+              videoId="Xzv0s27IZc8"
+              index={1}
+              title="Componente 'Introdução' na WebQuest: Como Engajar seus Alunos desde o Início"
+            />
+            <StandardYouTubeVideo
+              videoId="btVlU-tCJio"
+              index={2}
+              title="Componente 'Tarefa' na WebQuest: Estruturando a Atividade"
+            />
+            <StandardYouTubeVideo
+              videoId="OLpQ0xEHp24"
+              index={3}
+              title="Desvendando o Componente 'Processo' da Metodologia WebQuest"
+            />
+            <StandardYouTubeVideo
+              videoId="eKw3HasYb00"
+              index={4}
+              title="Ocupação do sul do Maranhão durante o período colonial"
+            />
+            <StandardYouTubeVideo
+              videoId="7PKr1uQllkU"
+              index={5}
+              title="Componente 'Avaliação' na WebQuest: Criando Critérios para Avaliação"
+            />
+            <StandardYouTubeVideo
+              videoId="Yc6v0N1ki74"
+              index={6}
+              title="Conclusão da WebQuest: Finalizando a Jornada de Aprendizagem"
+            />
+          </div>
+
+          <h2 className="mb-3 text-5xl font-light">
+            Construindo uma <span className="italic">WebQuest</span> via Google
+            Sites
+          </h2>
+          <hr className="mb-10 border-t-2 border-brown-800" />
+          <p className="mb-16 text-justify text-2xl font-light">
+            Nessa série de vídeos explicativos, você aprenderá passo a passo
+            como construir um <span className="italic">WebQuest</span> (WQ)
+            utilizando o Google Sites.
+          </p>
+
+          <div className="grid grid-cols-2 gap-6 px-14">
+            <StandardYouTubeVideo
+              videoId="nJid3VlGz9o"
+              index={1}
+              title="Construindo um WebQuest Utilizando o Google Sites (Passo 1)"
+            />
+            <StandardYouTubeVideo
+              videoId="x-QBsIhGuKM"
+              index={2}
+              title="Construindo um WebQuest Utilizando o Google Sites (Passo 2)"
+            />
+            <StandardYouTubeVideo
+              videoId="lxs826tu89w"
+              index={3}
+              title="Construindo um WebQuest Utilizando o Google Sites (Passo 3)"
+            />
+            <StandardYouTubeVideo
+              videoId="Gck4JmSVT9Q"
+              index={4}
+              title="Construindo um WebQuest Utilizando o Google Sites (Passo 4)"
+            />
+            <StandardYouTubeVideo
+              videoId="kgo9-vSFDgo"
+              index={5}
+              title="Construindo um WebQuest Utilizando o Google Sites (Passo 5)"
+            />
+            <StandardYouTubeVideo
+              videoId="cRMtCT44nIo"
+              index={6}
+              title="Construindo um WebQuest Utilizando o Google Sites (Passo 6)"
+            />
           </div>
         </div>
       </div>

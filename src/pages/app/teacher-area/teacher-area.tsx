@@ -95,13 +95,13 @@ export function TeacherArea() {
             )}
 
             <h2 className="mb-3 text-5xl font-light">
-              Sites com a temática de <span className="italic"> Web Quest</span>
+              Sites com a temática de <span className="italic"> WebQuest</span>
             </h2>
             <hr className="mb-10 border-t-2 border-brown-800" />
 
             <p className="mb-16 gap-2 text-justify text-2xl font-light">
               Selecionamos alguns sites para que você possa desbravar o mundo da
-              Web Quest a partir de outras fontes e exemplos muito
+              WebQuest a partir de outras fontes e exemplos muito
               interessantes, esperamos que goste!
             </p>
 
@@ -133,13 +133,13 @@ export function TeacherArea() {
             </div>
 
             <h2 className="mb-3 text-5xl font-light">
-              Exemplos de <span className="italic">Web Quest</span>
+              Exemplos de <span className="italic">WebQuest</span>
             </h2>
             <hr className="mb-10 border-t-2 border-brown-800" />
 
             <p className="mb-16 gap-2 text-justify text-2xl font-light">
               Selecionamos alguns sites para que você possa desbravar o mundo da
-              <span className="italic"> Web Quest</span> a partir de outras
+              <span className="italic"> WebQuest</span> a partir de outras
               fontes e exemplos muito interessantes, esperamos que goste!
             </p>
 
