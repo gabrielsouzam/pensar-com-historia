@@ -2,6 +2,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { At } from '@phosphor-icons/react'
 import emailjs from 'emailjs-com'
 import { useForm } from 'react-hook-form'
+import { toast } from 'sonner'
 import { z } from 'zod'
 
 import aboustUsBg from '@/assets/about-us-bg.png'
@@ -56,11 +57,11 @@ export function AboutUs() {
       .send(serviceId, templateId, templateParams, userId)
       .then((response) => {
         console.log('E-mail enviado com sucesso!', response)
-        alert('Mensagem enviada!')
+        toast.success('Mensagem enviada com sucesso!')
       })
       .catch((error) => {
         console.error('Erro ao enviar o e-mail:', error)
-        alert('Ocorreu um erro ao enviar. Tente novamente.')
+        toast.error('Ocorreu um erro ao enviar. Tente novamente.')
       })
   }
 
