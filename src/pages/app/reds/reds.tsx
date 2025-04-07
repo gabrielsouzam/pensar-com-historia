@@ -1,10 +1,9 @@
-import { CaretLeft, CaretRight } from '@phosphor-icons/react'
 import { Helmet } from 'react-helmet-async'
 
 import redsImage from '@/assets/reds-image.png'
 
 import { PageTitle } from '../@components/page-title'
-import { DescriptionButton } from '../web-quest/components/description-button'
+import { DynamicContentCarousel } from './components/dynamic-content-carousel'
 import { RedsDescriptionButton } from './components/reds-description-button'
 
 export function REDs() {
@@ -43,13 +42,30 @@ export function REDs() {
           </h2>
           <hr className="mb-10 border-t-2 border-brown-800" />
 
-          <RedsDescriptionButton title="Desenvolvimento de competências digitais" />
+          <RedsDescriptionButton
+            title="Desenvolvimento de competências digitais"
+            description="Ao utilizar os REDs o professor pode desenvolver 
+            juntamente com seus alunos uma série de competências tecnológicas 
+            digitais. Além de aprender  sobre o conteúdo didático por meio 
+            de variados recursos, os discentes podem aprender a explorar os 
+            diferentes formatos utilizados, entender o seu mecanismo de 
+            funcionamento e replicá-los em diferentes situações."
+          />
 
           <div className="mb-24 mt-10 flex justify-center gap-32">
             <div className="space-y-4">
-              <RedsDescriptionButton title="Flexibilidade para Aprender" />
+              <RedsDescriptionButton
+                title="Flexibilidade para Aprender"
+                description="Com os REDs, os estudantes podem acessar os 
+                materiais de aprendizagem a qualquer hora e em qualquer 
+                lugar, desde que tenham uma conexão com a internet."
+              />
               <RedsDescriptionButton
                 title="Aprendizagem Colaborativa"
+                description="Muitos REDs incentivam a colaboração não apenas 
+                entre os estudantes, mas também entre estudantes e professores. 
+                Isso permite que eles trabalhem juntos em projetos e atividades, 
+                promovendo um ambiente de aprendizado cooperativo."
                 align="left"
               />
             </div>
@@ -57,9 +73,21 @@ export function REDs() {
             <img src={redsImage} alt="Sigla RED's" />
 
             <div className="space-y-4">
-              <RedsDescriptionButton title="Aprendizagem Personalizada" />
+              <RedsDescriptionButton
+                title="Aprendizagem Personalizada"
+                description="Os REDs permitem que os discentes aprendam ao seu 
+                próprio ritmo, proporcionando uma flexibilidade que é muitas 
+                vezes ausente em ambientes de aprendizagem tradicionais. Isso 
+                significa que se um estudante precisa de mais tempo para
+                entender um conceito, ele pode fazer isso sem se sentir 
+                pressionado pelo horário imposto a sala de aula. "
+              />
               <RedsDescriptionButton
                 title="Acesso a uma Variedade de Recursos"
+                description="Os REDs disponibilizam uma ampla gama de 
+                recursos, como textos, vídeos, jogos, imagens, slides, 
+                infográficos e muito mais. Isso pode ajudar a tornar o 
+                aprendizado mais interessante e envolvente. "
                 align="right"
               />
             </div>
@@ -104,40 +132,7 @@ export function REDs() {
             </p>
           </p>
 
-          <div className="flex items-center justify-between gap-24">
-            <button
-              type="button"
-              className={
-                'flex h-14 w-14 items-center justify-center rounded-full border-4 border-brown-400/90 border-opacity-50 bg-brown-700'
-              }
-            >
-              <CaretLeft size={32} className="text-brown-50" weight="bold" />
-            </button>
-
-            <div className="flex flex-1 flex-col items-center gap-10">
-              <div className="flex w-full justify-between gap-10">
-                <DescriptionButton title="MindMeister" description="" />
-                <DescriptionButton title="Canva" description="" />
-              </div>
-
-              <div className="mb-2 w-[18rem]">
-                <h2 className="text-center text-3xl font-semibold">
-                  Apresentação de Conteúdos
-                </h2>
-              </div>
-
-              <DescriptionButton title="Genially" description="" />
-            </div>
-
-            <button
-              type="button"
-              className={
-                'flex h-14 w-14 items-center justify-center rounded-full border-4 border-brown-400/90 border-opacity-50 bg-brown-700'
-              }
-            >
-              <CaretRight size={32} className="text-brown-50" weight="bold" />
-            </button>
-          </div>
+          <DynamicContentCarousel />
         </div>
       </div>
     </>

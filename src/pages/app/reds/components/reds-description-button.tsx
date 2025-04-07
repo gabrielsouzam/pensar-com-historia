@@ -6,11 +6,13 @@ import { ChevronTop } from '../../web-quest/components/chevron-top'
 interface RedsDescriptionButtonProps {
   title: string
   align?: 'left' | 'right'
+  description: string
 }
 
 export function RedsDescriptionButton({
   title,
   align,
+  description,
 }: RedsDescriptionButtonProps) {
   const [isPopupVisible, setIsPopupVisible] = useState(false)
 
@@ -72,12 +74,7 @@ export function RedsDescriptionButton({
           }`}
         >
           <ChevronTop />
-          <p className="text-brown-50">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            vitae sapiente facilis fuga earum ratione distinctio tempora quod!
-            Obcaecati deserunt voluptatibus similique. Commodi eaque, fugiat
-            perferendis fuga dolores exercitationem nesciunt.
-          </p>
+          <p className="text-brown-50">{description}</p>
         </div>
       )}
     </div>
