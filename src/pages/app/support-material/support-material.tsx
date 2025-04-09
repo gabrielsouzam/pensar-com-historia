@@ -220,12 +220,20 @@ export function SupportMaterial() {
                 <div className="pl-5">
                   <ul className="list-inside list-disc text-justify text-2xl font-light">
                     <li className="underline">
-                      <a href="https://www2.senado.leg.br/bdsf/item/id/518661">
+                      <a
+                        href="https://www2.senado.leg.br/bdsf/item/id/518661"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         Pantheon maranhense
                       </a>{' '}
                     </li>
                     <li className="underline">
-                      <a href="https://www2.senado.leg.br/bdsf/item/id/221681">
+                      <a
+                        href="https://www2.senado.leg.br/bdsf/item/id/221681"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         Diccionario bibliographico brazileiro
                       </a>{' '}
                     </li>
@@ -256,7 +264,11 @@ export function SupportMaterial() {
                 <div className="pl-5">
                   <ul className="list-inside list-disc text-justify text-2xl font-light">
                     <li className="underline">
-                      <a href="https://repositorio.uema.br/bitstream/123456789/1573/2/Pelas%20trilhas%20do%20sert%C3%A3o%20maranhense%20-%20e.book%20-%20Samara%20de%20Almeida%20Ramos%20-okkk.pdf">
+                      <a
+                        href="https://repositorio.uema.br/bitstream/123456789/1573/2/Pelas%20trilhas%20do%20sert%C3%A3o%20maranhense%20-%20e.book%20-%20Samara%20de%20Almeida%20Ramos%20-okkk.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         Produto Educacional sobre o Sertão Sul Maranhense
                       </a>{' '}
                     </li>
@@ -290,17 +302,29 @@ export function SupportMaterial() {
                 <div className="pl-5">
                   <ul className="list-inside list-disc pl-6 text-justify text-2xl font-light">
                     <li className="underline">
-                      <a href="https://objdigital.bn.br/objdigital2/acervo_digital/div_cartografia/cart529483/cart529483.jpg">
+                      <a
+                        href="https://objdigital.bn.br/objdigital2/acervo_digital/div_cartografia/cart529483/cart529483.jpg"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         Mapa da capitania do Maranhão
                       </a>{' '}
                     </li>
                     <li className="underline">
-                      <a href="https://objdigital.bn.br/objdigital2/acervo_digital/div_cartografia/cart519673/cart519673.jpg">
+                      <a
+                        href="https://objdigital.bn.br/objdigital2/acervo_digital/div_cartografia/cart519673/cart519673.jpg"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         Mapa da província do Maranhão em oito Comarcas
                       </a>
                     </li>
                     <li className="underline">
-                      <a href="https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=718130&Pesq=Balaiada&pagfis=154">
+                      <a
+                        href="https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=718130&Pesq=Balaiada&pagfis=154"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         O BemTevi - 1838
                       </a>
                     </li>

@@ -125,6 +125,8 @@ export function AboutUs() {
                 <a
                   href="http://lattes.cnpq.br/2660971989902220"
                   className="mb text-2xl font-semibold underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   lattes.cnpq.br/2660971989902220
                 </a>
@@ -161,6 +163,8 @@ export function AboutUs() {
                 <a
                   href="marcelochecheppg@gmail.com"
                   className="mb text-2xl font-semibold underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   marcelochecheppg@gmail.com
                 </a>

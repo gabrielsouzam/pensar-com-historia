@@ -24,7 +24,12 @@ export function AppFooter() {
 
       <div className="flex items-center justify-between">
         <span className="text-zinc-900">
-          <a className="text-red-800 underline" href="">
+          <a
+            className="text-red-800 underline"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             pensar.com a História
           </a>{' '}
           &copy; {new Date().getFullYear()} de{' '}
@@ -38,6 +43,8 @@ export function AppFooter() {
           <a
             className="text-red-800 underline"
             href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             CC BY-NC-SA 4.0
           </a>
