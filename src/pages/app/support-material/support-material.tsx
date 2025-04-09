@@ -1,3 +1,4 @@
+import { Link } from '@phosphor-icons/react'
 import { Helmet } from 'react-helmet-async'
 
 import { PageTitle } from '../@components/page-title'
@@ -86,10 +87,18 @@ export function SupportMaterial() {
               ao seu público e deixando tudo com a sua cara!
             </p>
 
-            <CustomLink
-              title="Baixe aqui nosso template para produção de Webquest"
-              link="https://docs.google.com/document/d/1RWcnn2IyUllLfp7O7xUgFZ4K5d_lyiVjZ3_FNp4JGsI/edit?tab=t.0#heading=h.gjdgxs"
-            />
+            <div className="flex items-center gap-3">
+              <Link size={24} weight="light" className="text-brown-600" />
+              <a
+                href="/webquest-template.docx"
+                className="text-normal text-2xl underline"
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+              >
+                Baixe aqui nosso template para produção de Webquest
+              </a>
+            </div>
           </div>
 
           <h2 className="mb-3 text-5xl font-light">
@@ -216,7 +225,9 @@ export function SupportMaterial() {
                       </a>{' '}
                     </li>
                     <li className="underline">
-                      <a href="">Diccionario bibliographico brazileiro</a>{' '}
+                      <a href="https://www2.senado.leg.br/bdsf/item/id/221681">
+                        Diccionario bibliographico brazileiro
+                      </a>{' '}
                     </li>
                   </ul>
                 </div>

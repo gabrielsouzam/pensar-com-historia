@@ -44,7 +44,7 @@ export function CreatingWebQuest() {
             </p>
           </p>
 
-          <div className="mb-48 flex items-center justify-between px-16">
+          <div className="mb-36 flex items-center justify-between px-16">
             <div className="space-y-20">
               <DescriptionButton
                 title="1. Introdução"
@@ -142,32 +142,32 @@ export function CreatingWebQuest() {
             <StandardYouTubeVideo
               videoId="nJid3VlGz9o"
               index={1}
-              title="Construindo um WebQuest Utilizando o Google Sites (Passo 1)"
+              title="Construindo uma WebQuest Utilizando o Google Sites (Passo 1)"
             />
             <StandardYouTubeVideo
               videoId="x-QBsIhGuKM"
               index={2}
-              title="Construindo um WebQuest Utilizando o Google Sites (Passo 2)"
+              title="Construindo uma WebQuest Utilizando o Google Sites (Passo 2)"
             />
             <StandardYouTubeVideo
               videoId="lxs826tu89w"
               index={3}
-              title="Construindo um WebQuest Utilizando o Google Sites (Passo 3)"
+              title="Construindo uma WebQuest Utilizando o Google Sites (Passo 3)"
             />
             <StandardYouTubeVideo
               videoId="Gck4JmSVT9Q"
               index={4}
-              title="Construindo um WebQuest Utilizando o Google Sites (Passo 4)"
+              title="Construindo uma WebQuest Utilizando o Google Sites (Passo 4)"
             />
             <StandardYouTubeVideo
               videoId="kgo9-vSFDgo"
               index={5}
-              title="Construindo um WebQuest Utilizando o Google Sites (Passo 5)"
+              title="Construindo uma WebQuest Utilizando o Google Sites (Passo 5)"
             />
             <StandardYouTubeVideo
               videoId="cRMtCT44nIo"
               index={6}
-              title="Construindo um WebQuest Utilizando o Google Sites (Passo 6)"
+              title="Construindo uma WebQuest Utilizando o Google Sites (Passo 6)"
             />
           </div>
         </div>

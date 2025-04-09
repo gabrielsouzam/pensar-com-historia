@@ -58,7 +58,7 @@ export function RecomendationCards() {
           <h2 className="text-4xl font-semibold">Capacitação de Educadores</h2>
           <p className="text-2xl font-light">
             Professores precisam entender como planejar, criar e aplicar uma
-            <span className="font-normal italic">WebQuest</span>. Para isso, é
+            <span className="font-normal italic"> WebQuest</span>. Para isso, é
             essencial oferecer treinamentos e compartilhar exemplos práticos que
             demonstrem o potencial dessa ferramenta no ensino.
           </p>
@@ -70,7 +70,7 @@ export function RecomendationCards() {
           <h2 className="text-4xl font-semibold">Monitoramento Contínuo</h2>
           <p className="text-2xl font-light">
             Acompanhar o progresso dos alunos durante a execução da{' '}
-            <span className="font-normal italic">WebQuest</span>
+            <span className="font-normal italic">WebQuest </span>
             permite identificar dificuldades e oferecer suporte imediato. Além
             disso, o monitoramento contínuo facilita ajustes futuros na
             metodologia.
