@@ -174,6 +174,8 @@ export function AboutUs() {
                 <a
                   href="http://lattes.cnpq.br/6812330304018227"
                   className="mb text-2xl font-semibold underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   lattes.cnpq.br/6812330304018227
                 </a>
