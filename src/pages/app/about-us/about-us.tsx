@@ -26,6 +26,7 @@ export function AboutUs() {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm<messageFormData>({
     resolver: zodResolver(messageFormSchema),
@@ -58,6 +59,7 @@ export function AboutUs() {
       .then((response) => {
         console.log('E-mail enviado com sucesso!', response)
         toast.success('Mensagem enviada com sucesso!')
+        reset()
       })
       .catch((error) => {
         console.error('Erro ao enviar o e-mail:', error)

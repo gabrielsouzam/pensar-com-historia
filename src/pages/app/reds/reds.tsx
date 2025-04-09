@@ -12,7 +12,7 @@ export function REDs() {
       <Helmet title="Criando Web-quest" />
 
       <div className="flex h-full w-full flex-col bg-brown-50 pb-40">
-        <PageTitle title="Recursos Educacionais digitais" />
+        <PageTitle title="Recursos Educacionais Digitais" />
         <div className="h-full px-32 pt-10 text-brown-800">
           <h2 className="mb-3 text-5xl font-light">O que são?</h2>
           <hr className="mb-10 border-t-2 border-brown-800" />
@@ -101,9 +101,9 @@ export function REDs() {
 
           <p className="mb-16 space-y-4 text-2xl font-light">
             <p>
-              Caro professor e professora, aqui, vocês encontrão uma variedade
-              de recursos educativos digitais (RED&apos;s) que irão transformar
-              a maneira como você conduz suas WebQuests.
+              Caro professor e cara professora, aqui vocês encontrarão uma
+              variedade de Recursos Educacionais Digitais (RED&apos;s) que irão
+              transformar a maneira como conduzem suas WebQuests.
             </p>
             <p>
               Estes recursos foram cuidadosamente selecionados e organizados em
@@ -112,23 +112,23 @@ export function REDs() {
                 Apresentação de Conteúdos; Interação e Escrita Colaborativa;
                 Criação e Edição de Vídeos Digitais; Avaliação da Aprendizagem
               </span>
-              ) para facilitar a sua busca e maximizar a eficácia das suas
-              aulas. Eles são interativos, envolventes e podem enriquecer
-              bastante a experiência de uso das suas WebQuests em sala de aula,
-              a comunicação entre os estudantes, bem como proporcionar uma
-              melhor colaboração e respostas para as tarefas solicitadas aos
-              discentes.
+              ) para facilitar sua busca e maximizar a eficácia das suas aulas.
+              Eles são interativos, envolventes e podem enriquecer
+              significativamente a experiência de uso das WebQuests em sala de
+              aula, favorecendo a comunicação entre os estudantes, além de
+              promover uma melhor colaboração e respostas mais qualificadas às
+              tarefas propostas aos discentes.
             </p>
             <p>
-              Explore, descubra e utilize estes recursos para enriquecer as suas
-              WebQuests e proporcionar aos seus alunos uma rica experiência de
-              aprendizagem.
+              Explore, descubra e utilize esses recursos para potencializar suas
+              WebQuests e proporcionar aos seus alunos uma experiência de
+              aprendizagem rica e dinâmica.
             </p>
             <p>
               Não perca tempo! Acesse os recursos agora mesmo e descubra um
               mundo de possibilidades para suas WebQuests. Estamos ansiosos para
-              ver como você vai utilizar estes recursos para inspirar e educar a
-              próxima geração de aprendizes!
+              ver como você irá utilizá-los para inspirar e educar a próxima
+              geração de aprendizes!
             </p>
           </p>
 
