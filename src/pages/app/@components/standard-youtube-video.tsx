@@ -15,7 +15,7 @@ export function StandardYouTubeVideo({
         className="list-outside list-decimal px-8 text-justify text-2xl font-semibold"
         start={index}
       >
-        <li className="h-auto pl-4">{title}</li>
+        <li className="mb-9 list-item h-[4rem] items-center py-4">{title}</li>
       </ol>
 
       <div className="h-[20.93rem] w-full overflow-hidden rounded-2xl">
