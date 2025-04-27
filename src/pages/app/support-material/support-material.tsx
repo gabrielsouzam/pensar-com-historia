@@ -183,7 +183,7 @@ export function SupportMaterial() {
                   <CustomLabel title="Inventário" />
                 </div>
 
-                <p className="text-justify text-2xl">
+                <p className="text-2xl">
                   <span className="font-semibold">
                     Os documentos tratam de questões administrativas, eleitorais
                     e econômicas.
@@ -205,7 +205,7 @@ export function SupportMaterial() {
                   <CustomLabel title="Outros documentos" />
                 </div>
 
-                <p className="text-justify text-2xl">
+                <p className="text-2xl">
                   <span className="font-semibold">
                     As biografias focam em líderes políticos, religiosos,
                     intelectuais e personalidades locais. Os demais documentos
@@ -252,7 +252,7 @@ export function SupportMaterial() {
                   <CustomLabel title="História" />
                 </div>
 
-                <p className="text-justify text-2xl">
+                <p className="text-2xl">
                   <span className="font-semibold">
                     No Repositório de Dissertações do PPGHIST você pode
                     encontrar dissertações e produtos educacionais que tratam de
@@ -288,7 +288,7 @@ export function SupportMaterial() {
                   <CustomLabel title="Jornais" />
                 </div>
 
-                <p className="text-justify text-2xl">
+                <p className="text-2xl">
                   <span className="font-semibold">
                     Mapas sobre as condições geográficas e sociais do sertão.
                     Jornais abordam questões sociais e políticas no Maranhão
@@ -343,7 +343,7 @@ export function SupportMaterial() {
                   <CustomLabel title="História" />
                 </div>
 
-                <p className="text-justify text-2xl">
+                <p className="text-2xl">
                   <span className="font-semibold">
                     Relatos das viagens de Francisco de Paula Ribeiro ao Sertão
                     sul maranhense. Descrição do território de Pastos Bons, nos

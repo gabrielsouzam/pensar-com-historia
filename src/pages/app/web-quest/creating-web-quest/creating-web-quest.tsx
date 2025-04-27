@@ -18,7 +18,7 @@ export function CreatingWebQuest() {
 
   return (
     <>
-      <Helmet title="Criando Web-quest" />
+      <Helmet title="Produzindo WebQuest" />
       <div className="flex h-full w-full flex-col bg-brown-50 pb-40">
         <WebQuestTitle title="Produzindo uma" />
 
@@ -134,7 +134,7 @@ export function CreatingWebQuest() {
           <hr className="mb-10 border-t-2 border-brown-800" />
           <p className="mb-16 text-justify text-2xl font-light">
             Nessa série de vídeos explicativos, você aprenderá passo a passo
-            como construir um <span className="italic">WebQuest</span> (WQ)
+            como construir uma <span className="italic">WebQuest</span> (WQ)
             utilizando o Google Sites.
           </p>
 

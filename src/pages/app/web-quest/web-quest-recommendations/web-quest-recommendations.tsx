@@ -6,7 +6,7 @@ import { WebQuestTitle } from '../components/web-quest-title'
 export function WebQuestRecommendations() {
   return (
     <>
-      <Helmet title="Avaliando Web-quest" />
+      <Helmet title="Recomendações WebQuest" />
       <div className="flex h-full w-full flex-col bg-brown-50 pb-40">
         <WebQuestTitle title="Recomendações ao implementar uma " />
 
@@ -15,12 +15,12 @@ export function WebQuestRecommendations() {
           <hr className="mb-10 border-t-2 border-brown-800" />
 
           <p className="mb-16 space-y-4 text-justify text-2xl font-light">
-            Para implementar uma <span className="italic">WebQuest</span> de
-            maneira eficaz, é fundamental considerar aspectos essenciais como
-            planejamento, engajamento dos alunos e a adaptação às suas
-            necessidades, além de garantir acessibilidade e monitoramento
-            constante para otimizar os resultados educacionais. Elencamos 7
-            tópicos de recomendações:
+            Para implementar uma WebQuest de maneira eficaz, é fundamental
+            considerar aspectos essenciais, como planejamento, engajamento dos
+            alunos e adaptação às suas necessidades. Além disso, é necessário
+            garantir acessibilidade e monitoramento constante para otimizar os
+            resultados educacionais. <br /> A seguir, elencamos sete tópicos de
+            recomendações:
           </p>
 
           <RecomendationCards />

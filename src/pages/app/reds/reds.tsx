@@ -9,7 +9,7 @@ import { RedsDescriptionButton } from './components/reds-description-button'
 export function REDs() {
   return (
     <>
-      <Helmet title="Criando Web-quest" />
+      <Helmet title="RED'S" />
 
       <div className="flex h-full w-full flex-col bg-brown-50 pb-40">
         <PageTitle title="Recursos Educacionais Digitais" />
@@ -19,16 +19,16 @@ export function REDs() {
 
           <p className="mb-16 text-justify text-2xl font-light">
             <p>
-              Os Recursos Educacionais Digitais (REDs) são materiais e
+              Os Recursos Educacionais Digitais (RED&apos;S) são materiais e
               ferramentas disponibilizados em formato digital que possuem
-              finalidades pedagógicas. Os REDs podem ser encontrados em formatos
-              de textos, vídeos, jogos, imagens, slides, infográficos e muitos
-              outros formatos.
+              finalidades pedagógicas. Os RED&apos;s podem ser encontrados em
+              formatos de textos, vídeos, jogos, imagens, slides, infográficos e
+              muitos outros formatos.
             </p>
             <p>
-              Alguns REDs podem ser acessados de forma gratuita e outros não. No
-              entanto, existem materiais de domínio público ou com licenças
-              abertas que possibilitam o acesso e a utilização.
+              Alguns RED&apos;s podem ser acessados de forma gratuita e outros
+              não. No entanto, existem materiais de domínio público ou com
+              licenças abertas que possibilitam o acesso e a utilização.
             </p>
             <p>
               Além disso, a adoção dos recursos educativos digitais pode
@@ -44,7 +44,7 @@ export function REDs() {
 
           <RedsDescriptionButton
             title="Desenvolvimento de competências digitais"
-            description="Ao utilizar os REDs o professor pode desenvolver 
+            description="Ao utilizar os RED'S o professor pode desenvolver 
             juntamente com seus alunos uma série de competências tecnológicas 
             digitais. Além de aprender  sobre o conteúdo didático por meio 
             de variados recursos, os discentes podem aprender a explorar os 
@@ -56,13 +56,13 @@ export function REDs() {
             <div className="space-y-4">
               <RedsDescriptionButton
                 title="Flexibilidade para Aprender"
-                description="Com os REDs, os estudantes podem acessar os 
+                description="Com os RED'S, os estudantes podem acessar os 
                 materiais de aprendizagem a qualquer hora e em qualquer 
                 lugar, desde que tenham uma conexão com a internet."
               />
               <RedsDescriptionButton
                 title="Aprendizagem Colaborativa"
-                description="Muitos REDs incentivam a colaboração não apenas 
+                description="Muitos RED'S incentivam a colaboração não apenas 
                 entre os estudantes, mas também entre estudantes e professores. 
                 Isso permite que eles trabalhem juntos em projetos e atividades, 
                 promovendo um ambiente de aprendizado cooperativo."
@@ -75,7 +75,7 @@ export function REDs() {
             <div className="space-y-4">
               <RedsDescriptionButton
                 title="Aprendizagem Personalizada"
-                description="Os REDs permitem que os discentes aprendam ao seu 
+                description="Os RED's permitem que os discentes aprendam ao seu 
                 próprio ritmo, proporcionando uma flexibilidade que é muitas 
                 vezes ausente em ambientes de aprendizagem tradicionais. Isso 
                 significa que se um estudante precisa de mais tempo para
@@ -84,7 +84,7 @@ export function REDs() {
               />
               <RedsDescriptionButton
                 title="Acesso a uma Variedade de Recursos"
-                description="Os REDs disponibilizam uma ampla gama de 
+                description="Os RED's disponibilizam uma ampla gama de 
                 recursos, como textos, vídeos, jogos, imagens, slides, 
                 infográficos e muito mais. Isso pode ajudar a tornar o 
                 aprendizado mais interessante e envolvente. "
@@ -99,7 +99,7 @@ export function REDs() {
           </h2>
           <hr className="mb-10 border-t-2 border-brown-800" />
 
-          <p className="mb-16 space-y-4 text-2xl font-light">
+          <p className="mb-16 space-y-4 text-justify text-2xl font-light">
             <p>
               Caro professor e cara professora, aqui vocês encontrarão uma
               variedade de Recursos Educacionais Digitais (RED&apos;s) que irão
@@ -107,7 +107,7 @@ export function REDs() {
             </p>
             <p>
               Estes recursos foram cuidadosamente selecionados e organizados em
-              quatro seções ({' '}
+              quatro seções (
               <span className="font-normal text-brown-800">
                 Apresentação de Conteúdos; Interação e Escrita Colaborativa;
                 Criação e Edição de Vídeos Digitais; Avaliação da Aprendizagem

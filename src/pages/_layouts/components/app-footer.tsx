@@ -24,18 +24,13 @@ export function AppFooter() {
 
       <div className="flex items-center justify-between">
         <span className="text-zinc-900">
-          <a
-            className="text-red-800 underline"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            pensar.com a História
-          </a>{' '}
+          <span className="text-red-800 underline">pensar.com a História</span>{' '}
           &copy; {new Date().getFullYear()} de{' '}
           <a
             className="text-red-800 underline"
             href="http://lattes.cnpq.br/2660971989902220"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Antonio Moura
           </a>{' '}

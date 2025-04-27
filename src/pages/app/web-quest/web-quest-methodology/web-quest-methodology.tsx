@@ -17,22 +17,22 @@ export function WebQuestMethodology() {
 
             <p className="mb-16 text-justify text-2xl font-light">
               <p>
-                WebQuest, enquanto metodologia e conceito, foram criados pelo
-                professor Bernie Dodge e seu colaborador Tom March em 1995, na
-                San Diego State University, na Califórnia, visando dar suporte
-                ao professor ao propor a seus alunos a realização de atividades
-                que integrem recursos disponibilizados na internet.
+                <span className="italic">WebQuest</span>, enquanto metodologia e
+                conceito, foram criados pelo professor Bernie Dodge e seu
+                colaborador Tom March em 1995, na San Diego State University, na
+                Califórnia, visando dar suporte ao professor ao propor a seus
+                alunos a realização de atividades que integrem recursos
+                disponibilizados na internet.
               </p>
               <p>
-                De acordo com Bernie Dodge (1995, p. 1) “A{' '}
-                <span className="italic">WebQuest</span> é “uma investigação
-                orientada na qual algumas ou todas as informações com as quais
-                os aprendizes interagem são originadas de recursos da internet”.
-                A ideia é ajudar os alunos a explorar os recursos que a web
-                oferece, o que não é pouco, e ao mesmo tempo, fazer com que os
-                docentes sejam capazes de ajudar seus alunos a não se perderem
-                no leque quase ilimitado de informações e arquivos que a rede
-                oferece nos diversos sítios eletrônicos.{' '}
+                De acordo com Bernie Dodge (1995, p. 1) “A WebQuest é “uma
+                investigação orientada na qual algumas ou todas as informações
+                com as quais os aprendizes interagem são originadas de recursos
+                da internet”. A ideia é ajudar os alunos a explorar os recursos
+                que a web oferece, o que não é pouco, e ao mesmo tempo, fazer
+                com que os docentes sejam capazes de ajudar seus alunos a não se
+                perderem no leque quase ilimitado de informações e arquivos que
+                a rede oferece nos diversos sítios eletrônicos.
               </p>
             </p>
 

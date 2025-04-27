@@ -72,7 +72,7 @@ export function DescriptionButton({
           }`}
         >
           <ChevronTop />
-          <p className="text-brown-50">{description}</p>
+          <p className="text-center text-brown-50">{description}</p>
         </div>
       )}
     </div>

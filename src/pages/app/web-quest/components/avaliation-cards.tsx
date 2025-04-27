@@ -4,22 +4,24 @@ export function AvaliationCards() {
       <div className="space-y-4 rounded-3xl bg-brown-300 px-14 py-10 text-center">
         <h2 className="text-4xl font-semibold">Página inicial</h2>
 
-        <h3 className="text-2l font-semibold">
+        <h3 className="text-xl font-semibold">
           Aspectos avaliados: Título, faixa etária, dados do autor, design
           visual
         </h3>
 
         <p className="text-2xl font-light">
-          Verifique se o título é claro e adequado à faixa etária, inclua
-          informações sobre os autores (nome, e-mail etc.), data de
-          criação/atualização, e contexto de criação. Use um layout limpo, com
-          cores e fontes que garantam boa legibilidade e estética.
+          Para implementar uma WebQuest de maneira eficaz, é fundamental
+          considerar aspectos essenciais, como planejamento, engajamento dos
+          alunos e adaptação às suas necessidades. Além disso, é necessário
+          garantir acessibilidade e monitoramento constante para otimizar os
+          resultados educacionais. A seguir, elencamos sete tópicos de
+          recomendações:
         </p>
       </div>
       <div className="space-y-4 rounded-3xl bg-brown-400 px-12 py-10 text-center text-brown-50">
         <h2 className="text-4xl font-semibold">Introdução</h2>
 
-        <h3 className="text-2l font-semibold">
+        <h3 className="text-xl font-semibold">
           Aspectos avaliados: Clareza, relevância, motivação
         </h3>
 
@@ -33,7 +35,7 @@ export function AvaliationCards() {
       <div className="space-y-4 rounded-3xl bg-brown-400 px-12 py-10 text-center text-brown-50">
         <h2 className="text-4xl font-semibold">Tarefa</h2>
 
-        <h3 className="text-2l font-semibold">
+        <h3 className="text-xl font-semibold">
           Aspectos avaliados: Desafios, complexidade, relevância, transformação
           de informações
         </h3>
@@ -48,7 +50,7 @@ export function AvaliationCards() {
       <div className="space-y-4 rounded-3xl bg-brown-300 px-12 py-10 text-center">
         <h2 className="text-4xl font-semibold">Processo</h2>
 
-        <h3 className="text-2l font-semibold">
+        <h3 className="text-xl font-semibold">
           Aspectos avaliados: Estruturação, clareza, colaboração, etapas bem
           definidas
         </h3>
@@ -63,7 +65,7 @@ export function AvaliationCards() {
       <div className="space-y-4 rounded-3xl bg-brown-300 px-12 py-10 text-center">
         <h2 className="text-4xl font-semibold">Recursos</h2>
 
-        <h3 className="text-2l font-semibold">
+        <h3 className="text-xl font-semibold">
           Aspectos avaliados: Qualidade, autenticidade, quantidade, adequação
           para a tarefa
         </h3>
@@ -78,7 +80,7 @@ export function AvaliationCards() {
       <div className="space-y-4 rounded-3xl bg-brown-400 px-12 py-10 text-center text-brown-50">
         <h2 className="text-4xl font-semibold">Avaliação</h2>
 
-        <h3 className="text-2l font-semibold">
+        <h3 className="text-xl font-semibold">
           Aspectos avaliados: Critérios claros, indicadores quantitativos e
           qualitativos, alinhamento com os objetivos da tarefa
         </h3>
@@ -93,7 +95,7 @@ export function AvaliationCards() {
       <div className="space-y-4 rounded-3xl bg-brown-400 px-12 py-10 text-center text-brown-50">
         <h2 className="text-4xl font-semibold">Conclusão</h2>
 
-        <h3 className="text-2l font-semibold">
+        <h3 className="text-xl font-semibold">
           Aspectos avaliados: Reflexão, síntese, continuidade
         </h3>
 
@@ -107,7 +109,7 @@ export function AvaliationCards() {
       <div className="space-y-4 rounded-3xl bg-brown-300 px-12 py-10 text-center">
         <h2 className="text-4xl font-semibold">Componentes Auxiliares</h2>
 
-        <h3 className="text-2l font-semibold">
+        <h3 className="text-xl font-semibold">
           Aspectos avaliados: Ajuda, créditos, referências
         </h3>
 
@@ -120,7 +122,7 @@ export function AvaliationCards() {
       <div className="space-y-4 rounded-3xl bg-brown-300 px-12 py-10 text-center">
         <h2 className="text-4xl font-semibold">Usabilidade e Navegação</h2>
 
-        <h3 className="text-2l font-semibold">
+        <h3 className="text-xl font-semibold">
           Aspectos avaliados: Intuitividade, estrutura do site
         </h3>
 
@@ -134,7 +136,7 @@ export function AvaliationCards() {
       <div className="space-y-4 rounded-3xl bg-brown-400 px-12 py-10 text-center text-brown-50">
         <h2 className="text-4xl font-semibold">Aspectos Técnicos</h2>
 
-        <h3 className="text-2l font-semibold">
+        <h3 className="text-xl font-semibold">
           Aspectos avaliados: Links quebrados, imagens faltantes, problemas com
           recursos tecnológicos
         </h3>

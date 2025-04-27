@@ -7,7 +7,7 @@ import { WebQuestTitle } from '../components/web-quest-title'
 export function EvaluatingWebQuest() {
   return (
     <>
-      <Helmet title="Avaliando Web-quest" />
+      <Helmet title="Avaliando WebQuest" />
       <div className="flex h-full w-full flex-col bg-brown-50 pb-40">
         <WebQuestTitle title="Avaliando  uma " />
 
@@ -16,22 +16,30 @@ export function EvaluatingWebQuest() {
           <hr className="mb-10 border-t-2 border-brown-800" />
 
           <p className="mb-16 space-y-4 text-justify text-2xl font-light">
-            Para avaliar uma{' '}
-            <span className="font-normal italic text-brown-800">WebQuest</span>,
-            deve-se levar em consideração componentes, aspectos atrelados a
-            estes componentes e critérios e recomendações pertinentes sobre
-            esses aspectos. Abaixo você encontrará sugestões sobre
+            <p>
+              Antes de disponibilizar sua WebQuest para os alunos, reserve um
+              tempo para revisá-la e refiná-la! Uma boa WebQuest deve ser clara,
+              objetiva e alinhada aos objetivos de aprendizagem. Para garantir
+              sua qualidade, é essencial avaliar seus componentes, analisar os
+              aspectos pedagógicos envolvidos e considerar critérios e
+              recomendações que possam aprimorá-la.
+            </p>
+            <p>
+              Abaixo, você encontrará sugestões para garantir que sua WebQuest
+              atenda critérios pedagógicos e técnicos necessários para
+              proporcionar uma experiência de aprendizagem eficaz.
+            </p>
           </p>
 
           <AvaliationCards />
 
           <h2 className="mb-3 text-5xl font-light">
-            Revisão e refinamento de um <span className="italic">WebQuest</span>{' '}
-            - vídeos
+            Revisão e refinamento de uma{' '}
+            <span className="italic">WebQuest</span> - vídeos
           </h2>
           <hr className="mb-10 border-t-2 border-brown-800" />
           <p className="mb-16 text-justify text-2xl font-light">
-            A revisão e o refinamento de um WebQuest são etapas essenciais para
+            A revisão e o refinamento de uma WebQuest são etapas essenciais para
             garantir que a experiência de aprendizado seja clara, envolvente e
             eficaz. Ao revisar, é possível identificar erros, ajustar atividades
             para torná-las mais dinâmicas e verificar se os recursos e links
@@ -49,12 +57,12 @@ export function EvaluatingWebQuest() {
             <StandardYouTubeVideo
               videoId="4CeSAhgfjKo"
               index={1}
-              title="Dicas para Revisão e Refinamento de um WebQuest (Parte I)"
+              title="Dicas para Revisão e Refinamento de uma WebQuest (Parte I)"
             />
             <StandardYouTubeVideo
               videoId="aXNrfzzAZ1U"
               index={2}
-              title="Dicas para Revisão e Refinamento de um WebQuest (Parte II)"
+              title="Dicas para Revisão e Refinamento de uma WebQuest (Parte II)"
             />
           </div>
         </div>
